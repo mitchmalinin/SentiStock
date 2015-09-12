@@ -27,7 +27,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
      
         super.viewDidLoad()
         tableView.delegate = self
-        self.tableView.registerClass(tableViewCell.self, forHeaderFooterViewReuseIdentifier: "cell")
         xmlParser = XMLParser()
         xmlParser.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
@@ -46,14 +45,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return 1
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return arrayy.count
+        return 1
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier:"cell")
         
-        cell.textLabel?.text = self.arrayy[indexPath.row] as? String
+//        cell.textLabel?.text = self.arrayy[indexPath.row] as? String
         
         return cell
         
