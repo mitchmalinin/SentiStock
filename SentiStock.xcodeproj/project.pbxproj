@@ -19,6 +19,8 @@
 		0505F35E1BA49E67001816C6 /* Stock-Index-Up-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0505F35D1BA49E67001816C6 /* Stock-Index-Up-icon.png */; };
 		0505F3601BA49E81001816C6 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505F35F1BA49E81001816C6 /* SwiftyJSON.swift */; };
 		0505F3621BA49E88001816C6 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505F3611BA49E88001816C6 /* XMLParser.swift */; };
+		0505F3661BA4A8CC001816C6 /* 1442100968_ic_keyboard_arrow_up_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0505F3641BA4A8CC001816C6 /* 1442100968_ic_keyboard_arrow_up_48px.png */; };
+		0505F3681BA4A9C7001816C6 /* downarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0505F3671BA4A9C7001816C6 /* downarrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		0505F35D1BA49E67001816C6 /* Stock-Index-Up-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stock-Index-Up-icon.png"; sourceTree = "<group>"; };
 		0505F35F1BA49E81001816C6 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		0505F3611BA49E88001816C6 /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		0505F3641BA4A8CC001816C6 /* 1442100968_ic_keyboard_arrow_up_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1442100968_ic_keyboard_arrow_up_48px.png; sourceTree = "<group>"; };
+		0505F3671BA4A9C7001816C6 /* downarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downarrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,8 @@
 		0505F3561BA49DC2001816C6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0505F3671BA4A9C7001816C6 /* downarrow.png */,
+				0505F3641BA4A8CC001816C6 /* 1442100968_ic_keyboard_arrow_up_48px.png */,
 				0505F35D1BA49E67001816C6 /* Stock-Index-Up-icon.png */,
 				0505F35B1BA49E5F001816C6 /* Stock-Index-Down-icon.png */,
 				0505F3591BA49E4F001816C6 /* up.png */,
@@ -223,6 +229,8 @@
 				0505F35A1BA49E4F001816C6 /* up.png in Resources */,
 				0505F35E1BA49E67001816C6 /* Stock-Index-Up-icon.png in Resources */,
 				0505F33C1BA49C39001816C6 /* Main.storyboard in Resources */,
+				0505F3661BA4A8CC001816C6 /* 1442100968_ic_keyboard_arrow_up_48px.png in Resources */,
+				0505F3681BA4A9C7001816C6 /* downarrow.png in Resources */,
 				0505F3411BA49C39001816C6 /* LaunchScreen.xib in Resources */,
 				0505F33E1BA49C39001816C6 /* Images.xcassets in Resources */,
 				0505F3581BA49E48001816C6 /* down.png in Resources */,
