@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7F45801A-77B8-4939-992F-333B211B3A7C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7EA867B41D1C47D6DCC636AE0C19A84742927E88</key>
+		<string>https://github.com/mitchmalinin/SentiStock.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SentiStock.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7EA867B41D1C47D6DCC636AE0C19A84742927E88</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mitchmalinin/SentiStock.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7EA867B41D1C47D6DCC636AE0C19A84742927E88</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7EA867B41D1C47D6DCC636AE0C19A84742927E88</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SentiStock</string>
+		</dict>
+	</array>
+</dict>
+</plist>
