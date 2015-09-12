@@ -89,8 +89,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier:"cell")
-        
+        //let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier:"cell")
+        let cell = self.tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! tableViewCell
+
        cell.textLabel?.text = self.arrayy[indexPath.row] as? String
         
         return cell
