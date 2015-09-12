@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0505F3371BA49C39001816C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505F3361BA49C39001816C6 /* AppDelegate.swift */; };
+		0505F3391BA49C39001816C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505F3381BA49C39001816C6 /* ViewController.swift */; };
+		0505F33C1BA49C39001816C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0505F33A1BA49C39001816C6 /* Main.storyboard */; };
+		0505F33E1BA49C39001816C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0505F33D1BA49C39001816C6 /* Images.xcassets */; };
+		0505F3411BA49C39001816C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0505F33F1BA49C39001816C6 /* LaunchScreen.xib */; };
+		0505F34D1BA49C39001816C6 /* SentiStockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505F34C1BA49C39001816C6 /* SentiStockTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0505F3471BA49C39001816C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0505F3291BA49C39001816C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0505F3301BA49C39001816C6;
+			remoteInfo = SentiStock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0505F3311BA49C39001816C6 /* SentiStock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentiStock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0505F3351BA49C39001816C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0505F3361BA49C39001816C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0505F3381BA49C39001816C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0505F33B1BA49C39001816C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0505F33D1BA49C39001816C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0505F3401BA49C39001816C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0505F3461BA49C39001816C6 /* SentiStockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentiStockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0505F34B1BA49C39001816C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0505F34C1BA49C39001816C6 /* SentiStockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentiStockTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0505F32E1BA49C39001816C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0505F3431BA49C39001816C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0505F3281BA49C39001816C6 = {
+			isa = PBXGroup;
+			children = (
+				0505F3331BA49C39001816C6 /* SentiStock */,
+				0505F3491BA49C39001816C6 /* SentiStockTests */,
+				0505F3321BA49C39001816C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0505F3321BA49C39001816C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0505F3311BA49C39001816C6 /* SentiStock.app */,
+				0505F3461BA49C39001816C6 /* SentiStockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0505F3331BA49C39001816C6 /* SentiStock */ = {
+			isa = PBXGroup;
+			children = (
+				0505F3361BA49C39001816C6 /* AppDelegate.swift */,
+				0505F3381BA49C39001816C6 /* ViewController.swift */,
+				0505F33A1BA49C39001816C6 /* Main.storyboard */,
+				0505F33D1BA49C39001816C6 /* Images.xcassets */,
+				0505F33F1BA49C39001816C6 /* LaunchScreen.xib */,
+				0505F3341BA49C39001816C6 /* Supporting Files */,
+			);
+			path = SentiStock;
+			sourceTree = "<group>";
+		};
+		0505F3341BA49C39001816C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0505F3351BA49C39001816C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0505F3491BA49C39001816C6 /* SentiStockTests */ = {
+			isa = PBXGroup;
+			children = (
+				0505F34C1BA49C39001816C6 /* SentiStockTests.swift */,
+				0505F34A1BA49C39001816C6 /* Supporting Files */,
+			);
+			path = SentiStockTests;
+			sourceTree = "<group>";
+		};
+		0505F34A1BA49C39001816C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0505F34B1BA49C39001816C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0505F3301BA49C39001816C6 /* SentiStock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0505F3501BA49C39001816C6 /* Build configuration list for PBXNativeTarget "SentiStock" */;
+			buildPhases = (
+				0505F32D1BA49C39001816C6 /* Sources */,
+				0505F32E1BA49C39001816C6 /* Frameworks */,
+				0505F32F1BA49C39001816C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SentiStock;
+			productName = SentiStock;
+			productReference = 0505F3311BA49C39001816C6 /* SentiStock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0505F3451BA49C39001816C6 /* SentiStockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0505F3531BA49C39001816C6 /* Build configuration list for PBXNativeTarget "SentiStockTests" */;
+			buildPhases = (
+				0505F3421BA49C39001816C6 /* Sources */,
+				0505F3431BA49C39001816C6 /* Frameworks */,
+				0505F3441BA49C39001816C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0505F3481BA49C39001816C6 /* PBXTargetDependency */,
+			);
+			name = SentiStockTests;
+			productName = SentiStockTests;
+			productReference = 0505F3461BA49C39001816C6 /* SentiStockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0505F3291BA49C39001816C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Mitchell Malinin";
+				TargetAttributes = {
+					0505F3301BA49C39001816C6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0505F3451BA49C39001816C6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0505F3301BA49C39001816C6;
+					};
+				};
+			};
+			buildConfigurationList = 0505F32C1BA49C39001816C6 /* Build configuration list for PBXProject "SentiStock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0505F3281BA49C39001816C6;
+			productRefGroup = 0505F3321BA49C39001816C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0505F3301BA49C39001816C6 /* SentiStock */,
+				0505F3451BA49C39001816C6 /* SentiStockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0505F32F1BA49C39001816C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0505F33C1BA49C39001816C6 /* Main.storyboard in Resources */,
+				0505F3411BA49C39001816C6 /* LaunchScreen.xib in Resources */,
+				0505F33E1BA49C39001816C6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0505F3441BA49C39001816C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0505F32D1BA49C39001816C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0505F3391BA49C39001816C6 /* ViewController.swift in Sources */,
+				0505F3371BA49C39001816C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0505F3421BA49C39001816C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0505F34D1BA49C39001816C6 /* SentiStockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0505F3481BA49C39001816C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0505F3301BA49C39001816C6 /* SentiStock */;
+			targetProxy = 0505F3471BA49C39001816C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0505F33A1BA49C39001816C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0505F33B1BA49C39001816C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0505F33F1BA49C39001816C6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0505F3401BA49C39001816C6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0505F34E1BA49C39001816C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0505F34F1BA49C39001816C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0505F3511BA49C39001816C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SentiStock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0505F3521BA49C39001816C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SentiStock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0505F3541BA49C39001816C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SentiStockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SentiStock.app/SentiStock";
+			};
+			name = Debug;
+		};
+		0505F3551BA49C39001816C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SentiStockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SentiStock.app/SentiStock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0505F32C1BA49C39001816C6 /* Build configuration list for PBXProject "SentiStock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0505F34E1BA49C39001816C6 /* Debug */,
+				0505F34F1BA49C39001816C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0505F3501BA49C39001816C6 /* Build configuration list for PBXNativeTarget "SentiStock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0505F3511BA49C39001816C6 /* Debug */,
+				0505F3521BA49C39001816C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0505F3531BA49C39001816C6 /* Build configuration list for PBXNativeTarget "SentiStockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0505F3541BA49C39001816C6 /* Debug */,
+				0505F3551BA49C39001816C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0505F3291BA49C39001816C6 /* Project object */;
+}
