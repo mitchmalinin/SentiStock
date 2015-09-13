@@ -90,13 +90,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         xmlParser.startParsingWithContentsOfURL(url!)
         
-//        var localNotification:UILocalNotification = UILocalNotification()
-//        localNotification.alertAction = "Testing notifications on iOS8"
-//        localNotification.alertBody = "Local notifications are working"
-//        localNotification.fireDate = NSDate(timeIntervalSinceNow: 0)
-//        localNotification.soundName = UILocalNotificationDefaultSoundName
-//        localNotification.category = "invite"
-//        UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
+
         
         //Assining RSS Value to a dictionary
         let currentDictionary = xmlParser.arrParsedData
@@ -106,20 +100,25 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             
             arrayy.addObject(currentDictionary[i])
-            //            var titlee = currentDictionary[i]["title"]
-            //            var urlString = "http://sentiment.vivekn.com/api/" + titlee! + "/"
-            //            var url: NSURL = NSURL(string: urlString)!
-            //            var request:NSMutableURLRequest = NSMutableURLRequest(URL:url)
-            //            var bodyData = "data=something"
-            //            request.HTTPMethod = "POST"
-            //            request.HTTPBody = bodyData.dataUsingEncoding(NSUTF8StringEncoding);
-            //            NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue())
-            //                {
-            //                    (response, data, error) in
-            //                    println(response)
-            //
-            //            }
-            
+            var titlee = currentDictionary[i]["title"]
+            let request = NSMutableURLRequest(URL: NSURL(string: "http://sentiment.vivekn.com/api/text/")!)
+            request.HTTPMethod = "POST"
+            let postString = "txt=\(titlee)"
+            request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding)
+            let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {
+                data, response, error in
+                
+                if error != nil {
+                    println("error=\(error)")
+                    return
+                }
+                
+                println("response = \(response)")
+                
+                let responseString = NSString(data: data, encoding: NSUTF8StringEncoding)
+                println("responseString = \(responseString)")
+            }
+            task.resume()
         }
         
         
