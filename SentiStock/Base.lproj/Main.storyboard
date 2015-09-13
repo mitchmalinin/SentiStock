@@ -108,6 +108,11 @@
                                                 <constraint firstItem="qoh-zZ-CKU" firstAttribute="leading" secondItem="ZNI-OY-L5e" secondAttribute="leadingMargin" id="oWA-8g-3ZM"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="arrowImage" destination="GHW-pa-sZJ" id="UWW-mq-bN2"/>
+                                            <outlet property="label" destination="qoh-zZ-CKU" id="grr-Qr-NNX"/>
+                                            <outlet property="timeLabel" destination="kjE-va-5Mq" id="yOJ-Pf-iZS"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
