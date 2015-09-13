@@ -75,7 +75,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     let arrayy :NSMutableArray = []
     let arrayDescrip :NSMutableArray = []
     let arraySentiment : NSMutableArray = []
-    
+
+    let arraySentimentPos : NSMutableArray = []
+    let arraySentimentNeu : NSMutableArray = []
+    let arraySentimentNeg : NSMutableArray = []
+
     let dateFormatter = NSDateFormatter()
     
     
@@ -113,24 +117,26 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     return
                 }
                 
-                println("response = \(response)")
-                
+                //println("response = \(response)")
+          
                 let responseString = NSString(data: data, encoding: NSUTF8StringEncoding)
-                println("responseString = \(responseString)")
+                let sentiment = responseString?.substringWithRange(NSRange(location: 64, length: 3)) 
+                self.arraySentiment.
+             
+               
             }
             task.resume()
+
         }
-        
-        
+       
+      
+    }
+    override func viewDidAppear(animated: Bool) {
+       println(self.arraySentiment)
+
     }
     
-    
-    
-    
-    
-    
-    
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
