@@ -121,7 +121,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
           
                 let responseString = NSString(data: data, encoding: NSUTF8StringEncoding)
                 let sentiment = responseString?.substringWithRange(NSRange(location: 64, length: 3)) 
-                self.arraySentiment.
+                self.arraySentiment.addObject(sentiment!)
              
                
             }
