@@ -141,7 +141,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 //            }
                 
             }
-
+            self.tableView.reloadData()
         }))
         alertView.addAction(UIAlertAction(title: "HP", style: UIAlertActionStyle.Default, handler: { action in
             let stringUrl = "http://feeds.finance.yahoo.com/rss/2.0/headline?s=HPQ&region=US&lang=en-US"
